@@ -14,6 +14,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
+        
 </head>
 
 <body>
@@ -60,6 +61,19 @@
                               <label for="">Cab Name</label>  
                               <input type="text" class = "form-control" name="cabNameInput">
                             </div>
+                            <div class="form-group">
+                                <label for="">Destination</label>  
+                                <input type="text" class = "form-control" name="destinationInput">
+                              </div>
+                              <div class="form-group">
+                                <label for="">Arrival of Closest Cab (HH:mm - Military Time)</label>  
+                                <input type="text" class = "form-control" name="firstCabInput">
+                              </div>
+                              <div class="form-group">
+                                <label for="">Frequency (seconds)</label>  
+                                <input type="text" class = "form-control" name="frequencyInput">
+                              </div>
+                              <button type="submit" class="btn btn-primary" id="addCabBtn">Submit!</button>
                         </form>
 
                     </div>
